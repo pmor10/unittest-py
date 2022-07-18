@@ -1,0 +1,19 @@
+RUN unittest:
+    - python3 -m unittest test_calc.py
+    - if __name__ == '__main__':
+        unittest.main()
+YOUTUBE LINK:
+    https://www.youtube.com/watch?v=6tNS--WetLI&ab_channel=CoreySchafer
+
+THINGS TO BE MINDFUL:
+    - in test module:
+        - all the functions test have to start with the word "test"
+
+
+WRITE CODE TEST:
+    - Check if the result is equal to the number we are looking for
+    - Check some edge cases:
+        - Check negative numbers
+        - Check Positive and negative number
+        - Check negative and positive number,..
+        
